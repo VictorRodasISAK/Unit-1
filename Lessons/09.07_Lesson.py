@@ -75,7 +75,7 @@ while ordering:
 
 print(frame_maker(msg=f"You need to pay ¥{(total*1.1):.2f}", space=50, sym="$"))
 
-with open("sales.csv", "a") as myfile:
+with open("Cool_Game_Sales.csv", "a") as myfile:
     myfile.writelines(f"order date total {(total * 1.1):.2f}\n")
 
 """
