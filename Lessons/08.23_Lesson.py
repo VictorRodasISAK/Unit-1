@@ -1,4 +1,4 @@
-""" first = input("Please enter your first name: ")
+first = input("Please enter your first name: ")
 last = input("Please enter your last name: ")
 
 while True:
@@ -48,16 +48,4 @@ else:
     else:
         print("The highest number is: " + str(x))
         print("The second number is: " + str(z))
-        print("The last number is: " + str(y)) """
-
-limite = 10
-valor_inicial = 1
-valor_actual = valor_inicial
-incremento = 1
-
-while True:
-    print(valor_actual)
-    valor_actual += incremento
-
-    if valor_actual > limite:
-        valor_actual = valor_inicial
+        print("The last number is: " + str(y))

@@ -28,7 +28,7 @@ print(logo)
 x = "MENU".center(50, " ")
 print(x)
 
-with open("Untitled spreadsheet - Sheet1.csv", "r") as myfile:
+with open("09.07_Conbini_Products - Sheet1.csv", "r") as myfile:
     database = myfile.readlines()
 
 items = []
@@ -75,10 +75,14 @@ while ordering:
 
 print(frame_maker(msg=f"You need to pay ¥{(total*1.1):.2f}", space=50, sym="$"))
 
-with open("Cool_Game_Sales.csv", "a") as myfile:
+with open("09.07_Sales.csv", "a") as myfile:
     myfile.writelines(f"order date total {(total * 1.1):.2f}\n")
 
-"""
+
+
+
+
+
 items = ['onigiri', 'bread', 'chips']
 prices = [500, 200, 150]
 
@@ -116,4 +120,4 @@ while ordering:
     if answer in "yY":
         ordering = False
 
-print(frame_maker(msg=f"You need to pay ¥{(total*1.1):.2f}", space=50, sym="$")) """
+print(frame_maker(msg=f"You need to pay ¥{(total*1.1):.2f}", space=50, sym="$"))

@@ -1,4 +1,4 @@
-"""my_info = [17, "Victor", "2025.victor.daniel.rodas.barrios@uwcisak.jp", "Guatemala"]
+my_info = [17, "Victor", "2025.victor.daniel.rodas.barrios@uwcisak.jp", "Guatemala"]
 print(f"Hi my name is {my_info[1]}, and I am from {my_info[3]}, I am {my_info[0]} years old and my email is: {my_info[2]}")
 
 index = 0
@@ -28,14 +28,4 @@ for numbers in range(100):
 
 memes = ["LoL", "OMG", "Atp"]
 for mem in range(100):
-    print(memes[mem % 3], end= "-") """
-
-
-# QUIZ 004
-def number(num:int)->int:
-    for n in range(num - 1):
-        n += 1
-        if num % n == 0:
-            print(n)
-    return num
-result = number(num=40)
+    print(memes[mem % 3], end= "-")

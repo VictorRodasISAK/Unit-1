@@ -1,4 +1,4 @@
-"""def sum_letters(text: str) -> int:
+def sum_letters(text: str) -> int:
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     sum_total = 0
 
@@ -28,4 +28,4 @@ answer = 'PRIME'
 for i in range(2, n - 1):
     if n % i == 0:
         answer = 'COMPOSITE'
-print(answer) """
+print(answer)
