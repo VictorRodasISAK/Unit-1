@@ -45,6 +45,17 @@ The costumer just need to have PyCharm to run the software.
 ## Flow Diagrams
 
 ## Record of tasks
+| Task No | Planned Action          | Planned Outcome                                                                | Time estimate | Target completion date | Criteria |
+|---------|-------------------------|--------------------------------------------------------------------------------|---------------|------------------------|----------|
+| 1       | Create a system diagram | To have a clear idea of the hardware and software requirements for the process | 10 min        | Sep 13                 | B        |
+| 2       | Create a login system   | To have a flow diagram and the code for the login system                       | 30 min        | Sep 14                 | B, C     |
+|         |                         |                                                                                |               |                        |          |
+|         |                         |                                                                                |               |                        |          |
+|         |                         |                                                                                |               |                        |          |
+|         |                         |                                                                                |               |                        |          |
+|         |                         |                                                                                |               |                        |          |
+|         |                         |                                                                                |               |                        |          |
+|         |                         |                                                                                |               |                        |          |
 
 # Criteria C: Development
 
