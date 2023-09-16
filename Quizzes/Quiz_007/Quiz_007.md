@@ -26,9 +26,12 @@ print(cover_answer)
 ```
 ### Proof
 ![Quiz_007_Proof_Image.png](Quiz_007_Proof_Image.png)
+**Fig.1:** Proof of the Quiz 007
 
 ### Flow Chart
 ![Quiz_007_Flow_Chart.png](Quiz_007_Flow_Chart.png)
+**Fig.2:** Flow Chart of the Quiz 007
 
 ### Work on paper
 ![Quiz_007_Work_Paper.jpeg](Quiz_007_Work_Paper.jpeg)
+**Fig.3:** Work on paper of the Quiz 007

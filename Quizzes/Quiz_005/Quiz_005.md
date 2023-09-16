@@ -14,9 +14,12 @@ print(x)
 
 ### Proof
 ![Quiz_005_Proof_Image.png](Quiz_005_Proof_Image.png)
+**Fig.1:** Proof of the Quiz 005
 
 ### Flow Chart
 ![Quiz_005_Flow_Chart.png](Quiz_005_Flow_Chart.png)
+**Fig.2:** Flow Chart of the Quiz 005
 
 ### Work on paper
 ![Quiz_005_Work_Paper.jpeg](Quiz_005_Work_Paper.jpeg)
+**Fig.3:** Work on paper of the Quiz 005

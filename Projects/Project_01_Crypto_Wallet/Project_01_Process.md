@@ -23,7 +23,7 @@ The first thing that you can do is have your procedures in a Safe Place, because
 by following the steps that are showed on the software.
 
 ### Justification
-For this Software I will be using Python 3.9. on PyCharm 23.2.1. running this on a MacBook Air model 2017. I will be using Phyton because the costumer wants a software that can be run without internet and on an effective way. Definitely Python can be used in a good way
+For this Software I will be using Python 3.9. on PyCharm 23.2.1. running this on a MacBook Air model 2017. I will be using Phyton because the costumer wants a software that can be run on an effective way. Definitely Python can be used in a good way
 it will develop the software without problems and can help with everything. PyCharm give the costumer a better experience, making our life easier to understand the different things that the project have. This software can be run without problems on Windows, Linux and different operative systems.
 The costumer just need to have PyCharm to run the software.
 

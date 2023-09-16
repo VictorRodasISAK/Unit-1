@@ -28,9 +28,12 @@ else:
 ```
 ### Proof
 ![Quiz_002_Proof_Image.png](Quiz_002_Proof_Image.png)
+**Fig.1:** Proof of the Quiz 002
 
 ### Flow Chart
 ![Quiz_002_Flow_Chart.png](Quiz_002_Flow_Chart.png)
+**Fig.2:** Flow Chart of the Quiz 002
 
 ### Work on paper
 ![Quiz_002_Work_Paper.jpeg](Quiz_002_Work_Paper.jpeg)
+**Fig.3:** Work on paper of the Quiz 002

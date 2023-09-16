@@ -15,9 +15,10 @@ while count < len(words_split):
 ```
 ### Proof
 ![Quiz_001_Proof_Image.png](Quiz_001_Proof_Image.png)
-**Fig 1.** Proof of the Quiz 001
+**Fig.1:** Proof of the Quiz 001
 ### Flow Chart
-
+![Quiz_001_Flow_Chart.png](Quiz_001_Flow_Chart.png)
+**Fig.2:** Flow Chart of the Quiz 001
 ### Work on paper
 ![Quiz_001_Work_Paper.jpeg](Quiz_001_Work_Paper.jpeg)
-**Fig**
+**Fig.3:** Work on paper of the Quiz 001

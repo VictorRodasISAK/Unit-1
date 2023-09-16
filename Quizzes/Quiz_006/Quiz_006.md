@@ -16,9 +16,12 @@ find_room = room_find(number = 50)
 
 ### Proof
 ![Quiz_006_Proof_Image.png](Quiz_006_Proof_Image.png)
+**Fig.1:** Proof of the Quiz 006
 
 ### Flow Chart
 ![Quiz_006_Flow_Chart.png](Quiz_006_Flow_Chart.png)
+**Fig.2:** Flow Chart of the Quiz 006
 
 ### Work on paper
 ![Quiz_006_Work_Paper.jpeg](Quiz_006_Work_Paper.jpeg)
+**Fig.3:** Work on paper of the Quiz 006

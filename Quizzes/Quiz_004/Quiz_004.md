@@ -20,9 +20,12 @@ result = number(num=28)
 ```
 ### Proof
 ![Quiz_004_Proof_Image.png](Quiz_004_Proof_Image.png)
+**Fig.1:** Proof of the Quiz 004
 
 ### Flow Chart
 ![Quiz_004_Flow_Chart.png](Quiz_004_Flow_Chart.png)
+**Fig.2:** Flow Chart of the Quiz 004
 
 ### Work on paper
 ![Quiz_004_Work_Paper.jpeg](Quiz_004_Work_Paper.jpeg)
+**Fig.3:** Work on paper of the Quiz 004

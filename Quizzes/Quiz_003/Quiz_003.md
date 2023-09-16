@@ -21,9 +21,12 @@ print(x)
 ```
 ### Proof
 ![Quiz_003_Proof_Image.png](Quiz_003_Proof_Image.png)
+**Fig.1:** Proof of the Quiz 003
 
 ### Flow Chart
-![Quizz_003_Flow_Chart.png](Quiz_003_Flow_Chart.png)
+![Quiz_003_Flow_Chart.png](Quiz_003_Flow_Chart.png)
+**Fig.2:** Flow Chart of the Quiz 003
 
 ### Work on paper
 ![Quiz_003_Work_Paper.jpeg](Quiz_003_Work_Paper.jpeg)
+**Fig.3:** Work on paper of the Quiz 003
