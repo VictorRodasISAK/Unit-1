@@ -7,11 +7,11 @@ for let in text.lower():
 
 print(total)"""
 
-def sum(text:str) -> int:
-    ttl = 0
+def sum_ascii(text:str) -> int:
+    total = 0
     for let in text:
-        ttl += int(ord(let))
-    return ttl
+        total += int(ord(let))
+    return total
 
-x = sum(text="MAth")
+x = sum_ascii(text="MAth")
 print(x)

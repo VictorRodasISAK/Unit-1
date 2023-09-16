@@ -1,15 +1,13 @@
-def number(num: int):
+def searching_perfect(num: int) -> list:
     m = []
-    for n in range(num - 1):
-        n += 1
+    y = False
+    for n in range(1, num):
         if num % n == 0:
-            print(n)
             m.append(n)
             x = sum(m)
             if x == num:
-                print()
-                print(f"{num} is a perfect number")
-    return num, m
+                y = True
+    return m, y
 
-
-result = number(num=28)
+result = searching_perfect(num=3)
+print(result)

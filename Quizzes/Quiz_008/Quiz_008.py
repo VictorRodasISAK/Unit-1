@@ -1,12 +1,13 @@
-def new_ascii(text: str, shift: int):
+def new_ascii(text: str, shift: int) -> str:
+    x = ""
     for let in text:
         new = ord(let) + shift
-        if let == " ":
-            print(" ", end="")
-            continue
-        elif new > 122:
+        if new > 122:
             new -= 26
-        print(chr(new), end="")
+        x += f"{chr(new)}"
+    return x
 
 
-x = new_ascii(text="abcdefghijklmnopqrstuvwxyz", shift=13)
+
+shift1 = new_ascii(text="abcdefghijklmnopqrstuvwxyz", shift=13)
+print(shift1)

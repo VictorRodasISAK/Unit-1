@@ -8,5 +8,5 @@ def mult(num: int) -> str:
         return y
 
 
-result = mult(num=2)
+result = mult(num=6)
 print(result)

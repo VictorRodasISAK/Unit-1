@@ -34,7 +34,6 @@ The costumer just need to have PyCharm to run the software.
 4. The electronic ledger tells the costumer if is worth to make transactions that day.
 5. The electronic ledger gives the opportunity to restore the Password.
 6. The electronic ledger shows the graphs in real-time about the Crypto Coin.
-7. The electronic ledger gives options to personalize the Software.
 
 # Criteria B: Design
 
