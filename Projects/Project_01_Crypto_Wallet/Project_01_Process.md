@@ -1,5 +1,5 @@
 # Crypto Wallet
-![Project_01_Gif.gif](Project_01_Gif.gif)
+![Project_01_Gif.gif](Project_01_Images/Project_01_Gif.gif)
 
 **Fig.1:** Crypto GIF
 # Criteria A: Planning
@@ -31,14 +31,15 @@ The costumer just need to have PyCharm to run the software.
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cryptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
-4. The electronic ledger tells the costumer if is worth to make transactions that day.
-5. The electronic ledger gives the opportunity to restore the Password.
+4. The electronic ledger have a login system that gives the opportunity to restore the password by some questions.
+5. The electronic ledger allows an option to enter a date and watch the transactions that the costumer made on that day.
 6. The electronic ledger shows the graphs in real-time about the Crypto Coin.
+7. The electronic ledger gives the opportunity to save every buy and sale made with the currency and print it as a pdf.
 
 # Criteria B: Design
 
 ## System Diagram
-![Project_01_System_Diagram.png](Project_01_System_Diagram.png)
+![Project_01_System_Diagram.png](Project_01_Images/Project_01_System_Diagram.png)
 **Fig.2:** System Diagram Image
 
 ## Flow Diagrams
@@ -59,3 +60,31 @@ The costumer just need to have PyCharm to run the software.
 # Criteria C: Development
 
 ## Login System
+```.py
+def try_login(name:str, password:str) -> bool:
+    with open('09.14_Users.csv',mode='r') as f:
+        data = f.readlines()
+
+    success = False
+    for line in data:
+        uname = line.split(',')[0]
+        upass = line.split(',')[1].strip()
+        if uname == name and upass == password:
+            success = True
+            break
+    return success
+
+attempts = 3
+in_name = input("Enter your username")
+in_pass = input("Enter your password")
+result = try_login(name=in_name, password=in_pass)
+while result == False and attempts > 1:
+    in_name = input("Enter your username")
+    in_pass = input("Enter your password")
+    result = try_login(name=in_name,password=in_pass)
+    attempts -= 1
+
+if result == False:
+    print("Sayonara")
+    exit(1)
+```
