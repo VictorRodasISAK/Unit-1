@@ -1,4 +1,4 @@
-def searching_perfect(num: int) -> list:
+def searching_perfect(num: int) -> list and bool:
     m = []
     y = False
     for n in range(1, num):

@@ -1,7 +1,7 @@
 # Crypto Wallet
 ![Project_01_Gif.gif](Project_01_Images/Project_01_Gif.gif)
 
-**Fig.1:** Crypto GIF
+**Fig.1:** Crypto GIF Made by Mr. Cryply
 # Criteria A: Planning
 ## Problem Definition
 
@@ -31,10 +31,10 @@ The costumer just need to have PyCharm to run the software.
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cryptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
-4. The electronic ledger have a login system that gives the opportunity to restore the password by some questions.
+4. The electronic ledger gives the opportunity to save every buy and sale made with the currency and print it as a pdf.
 5. The electronic ledger allows an option to enter a date and watch the transactions that the costumer made on that day.
-6. The electronic ledger shows the graphs in real-time about the Crypto Coin.
-7. The electronic ledger gives the opportunity to save every buy and sale made with the currency and print it as a pdf.
+6. The electronic ledger shows the graphs about the Crypto Coin.
+7. The electronic ledger have a login system that gives the opportunity to restore the password by some questions.
 
 # Criteria B: Design
 
@@ -45,17 +45,17 @@ The costumer just need to have PyCharm to run the software.
 ## Flow Diagrams
 
 ## Record of tasks
-| Task No | Planned Action          | Planned Outcome                                                                | Time estimate | Target completion date | Criteria |
-|---------|-------------------------|--------------------------------------------------------------------------------|---------------|------------------------|----------|
-| 1       | Create a system diagram | To have a clear idea of the hardware and software requirements for the process | 10 min        | Sep 13                 | B        |
-| 2       | Create a login system   | To have a flow diagram and the code for the login system                       | 30 min        | Sep 14                 | B, C     |
-|         |                         |                                                                                |               |                        |          |
-|         |                         |                                                                                |               |                        |          |
-|         |                         |                                                                                |               |                        |          |
-|         |                         |                                                                                |               |                        |          |
-|         |                         |                                                                                |               |                        |          |
-|         |                         |                                                                                |               |                        |          |
-|         |                         |                                                                                |               |                        |          |
+| Task No | Planned Action          | Planned Outcome                                                                                                                                                                                          | Time estimate     | Target completion date | Criteria |
+|---------|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|------------------------|----------|
+| 1       | Create a system diagram | To have a clear idea of the hardware and software requirements for the process                                                                                                                           | 10 min            | Sep 13                 | B        |
+| 2       | Create a login system   | To have a flow diagram and the code for the login system                                                                                                                                                 | 30 min            | Sep 14                 | B, C     |
+| 3       | Create a sign in system | To have a program that keeps the information safe and no one can access it, except the costumer. In the case that the costumer forgets the password, the costumer will have he opportunity to recover it | 1 hour and 30 min | Sep 20                 | B, C     |
+|         |                         |                                                                                                                                                                                                          |                   |                        |          |
+|         |                         |                                                                                                                                                                                                          |                   |                        |          |
+|         |                         |                                                                                                                                                                                                          |                   |                        |          |
+|         |                         |                                                                                                                                                                                                          |                   |                        |          |
+|         |                         |                                                                                                                                                                                                          |                   |                        |          |
+|         |                         |                                                                                                                                                                                                          |                   |                        |          |
 
 # Criteria C: Development
 

@@ -1,5 +1,5 @@
 def try_login(name:str, password:str) -> bool:
-    with open('09.14_Users.csv',mode='r') as f:
+    with open('09.14_Users.csv', mode='r') as f:
         data = f.readlines()
 
     success = False

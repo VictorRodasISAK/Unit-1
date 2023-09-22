@@ -1,45 +1,58 @@
-with open("../Project_01_Files/Project_01_Words.tsv", "r") as words_file:
+with open("../Project_01_Files/Project_01_Words1.csv", "r") as words_file:
     words = words_file.readlines()
 
-def validate_uname(uname: str) -> bool:
-    upper, lower, num = False, False, False
-    for letter in uname:
-        if letter.isupper():
-            upper = True
-        elif letter.islower():
-            lower = True
-        elif letter.isnumeric():
-            num = True
-    return upper and lower and num
+for n in range(0, 3):
+    print(words[n].strip())
 
-answers = []
-for msg in words:
-    user_ques = input(msg)
-    while not validate_uname(uname=user_ques):
-        user_ques = input("ERROR " + msg)
-    answers.append(user_ques)
+validate = input(words[3])
 
-print(answers)
+while not validate in "12":
+    print("ERROR")
+    validate = input(words[3])
+
+if int(validate) == 1:
+    print(words[4])
+
+    uname = input(words[5])
 
 
-#with open("Project_01_Users_Loged.csv", "w") as user_file:
-    #user_file.writelines(f"{str(answers)}\n")
+    def validate_pass(password: str) -> bool:
+        upper, lower, num = False, False, False
+        count = 0
+        for letter in password:
+            count += 1
+            if letter.isupper():
+                upper = True
+            elif letter.islower():
+                lower = True
+            elif letter.isnumeric():
+                num = True
+        if count < 7:
+            return False
+
+        return upper and lower and num
 
 
+    print(words[6])
+    password = input(words[7])
+    passw = validate_pass(password=password)
 
-"""for msg in words:
-    if 'username'in msg:
-        user_a = input(msg)
-        while validate_uname(user_a) == False:
-            user_a = input("ERROR"+msg)
-    else:
-        user_a = input("ERROR " + msg)
-    answers.append([msg, user_a])"""
-
+    while not passw:
+        print(f"ERROR! {words[6]}")
+        password = input(words[7])
+        passw = validate_pass(password=password)
 
 
+    print(words[8])
+    answers = ""
+    for n in range(9, 13):
+        answers_recover = input(words[n])
+        answers += answers_recover + ", "
 
+    print(answers)
 
+    with open("../Project_01_Files/Project_01_Users_Loged.csv", "w") as user_file:
+        user_file.writelines(f"{uname},{password},{answers}\n")
 
 
 """def try_login(name:str, password:str) -> bool:
