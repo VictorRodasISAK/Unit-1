@@ -1,5 +1,5 @@
 import random
-def color(num: object) -> object:
+def color(num: object):
     if num == 1:
         x = "\33[0;30m"
     elif num == 2:
@@ -16,7 +16,6 @@ def color(num: object) -> object:
 
 color_num = color(num= 3)
 def frame_maker(msg: str, sym: str, space: int) -> str:
-    height = 5
     width = 2 + 2*space + len(msg)
     end_code = "\033[00m"
 

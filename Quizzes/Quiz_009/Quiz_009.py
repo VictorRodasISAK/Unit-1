@@ -13,6 +13,6 @@ def powersTen(num:int) -> str:
         y += f"0.{'000 ' * t}00{num}".center(3).ljust(20)
         y += f"{units[count - 1]} gram of salt\n"
     return y
-x = powersTen(num=2)
+x = powersTen(num=7)
 print(x)
 

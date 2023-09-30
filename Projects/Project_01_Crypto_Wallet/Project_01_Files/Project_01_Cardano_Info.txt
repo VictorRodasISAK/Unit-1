@@ -1,0 +1,19 @@
+What Is Cardano (ADA)?
+
+Cardano (ADA) is a decentralized proof of stake (PoS) blockchain designed to be a more efficient alternative to proof of work (PoW) networks.
+Cardano’s cryptocurrency is named Ada after Augusta Ada King, Countess of Lovelace (1815–1852), who is commonly regarded as the first computer programmer.
+Ada is used in the blockchain’s PoS consensus mechanism. It is given as a reward for work done for the blockchain by users participating in a stake pool.
+
+
+History of Cardano (ADA)
+
+Charles Hoskinson, the co-founder of Ethereum, began the development of Cardano in 2015 and launched the platform in 2017 Cardano has positioned itself as an alternative to Ethereum.
+Both platforms are used for similar applications, such as smart contracts, and have goals of building a connected and decentralized system.
+Cardano considers itself an updated version of Ethereum and has anointed itself a “third-generation” platform, compared with Ethereum’s “second-generation” credentials.
+The blockchain platform also has a goal of providing banking services to the world’s unbanked.
+
+
+Future of Cardano
+Cardano is designed to be developed in “eras” named after notable figures in poetry and computer science history: Byron, Shelley, Goguen, Basho, and Voltaire.
+Basho is the era of scaling and optimization, intended to bring more capabilities to Cardano. As of 2023, Cardano is anticipating the transition from Basho to Voltaire.
+Voltaire is the final era for Cardano development, intended to bring voting and treasury management of the blockchain and network through previously introduced smart contract functionality and system improvements.

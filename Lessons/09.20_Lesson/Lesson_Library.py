@@ -1,5 +1,4 @@
 def frame_maker(msg: str, sym: str, space: int) -> str:
-    height = 5
     width = 2 + 2 * space + len(msg)
     red = "\33[0;31m"
     end_code = "\033[00m"

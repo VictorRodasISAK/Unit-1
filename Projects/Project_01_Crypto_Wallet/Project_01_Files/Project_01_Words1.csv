@@ -1,6 +1,6 @@
-Do you have an account? Or do you want to sign in?
-If you already have an account, press 1.
-If you want to sign in, press 2.
+Do you have an account? Or do you want to Sign-In?
+If you want to Create an Account please enter number '1'.
+If you want to Sign-In, press number '2'.
 Please enter a valid number (1-2).
 Let's start with your registration!
 Please enter a username:
@@ -11,3 +11,50 @@ Your favorite color:
 Your favorite food:
 Your hobbie:
 Your favorite place:
+Please enter your username:
+Please enter your password:
+Try Another Time!
+Probably you forgot your password, please enter number '1' if you want to see your password.
+Or if you want to return to the main menu and Sign-Up please press number '2'
+You need to answer the following questions, if each one is correct, I will show your password.
+Your password is:
+Please make sure to do not forget your password another time! Now try to Sign-In
+Welcome to CARDINITY!
+What do you want to do today?
+Press '1' if you want to learn more about Cardano Crypto Coin (ADA).
+Press '2' if you want to know how many Cardano Coins do you have.
+Press '3' if you want to make a deposit transaction.
+Press '4' if you want to withdraw money from your account.
+Press '5' if you want to see the transactions you made on a specific day.
+Press '6' if you want to print as a PDF the transactions that you made.
+Press '7' if you want to leave the program.
+Enter a valid number (1-7).
+Here is more info about Cardano(ADA)
+You are in the Deposit section, please enter the amount that you want to deposit!
+Be sure that this is minus or equal to the quantity that you already have.
+You finished with your registration!
+If you want to go to the main menu, press number '1'
+If you want to leave the program, please press number '2'
+Returning to the main menu...
+You are in the Withdraw Section.
+Please enter the amount that you want to take away!
+Enter a Valid Value > 0
+This username is already being used, please enter another one!
+Your deposit is saved and recorded!
+Your withdraw is saved and recorded!
+The amount that you want to withdraw is more than the amount that you already have!
+Please enter another value!
+Please enter the day where you want to see the transactions, by following this format
+YYYY-MM-DD, where 'Y' means year, 'M' means month and 'D' means day
+Please make sure to follow the format as indicated!
+There are no transactions on this day.
+If you want to make another transaction, press number '1'
+If you want to leave the program, press number '2'
+Have a nice day!
+ERROR! Trying to get ADA information from API
+Why are you making this transaction?
+Please enter a valid number (1-5).
+See the options and enter the number of your your reason.
+The document of your transaction is successfully converted into a pdf named: "Account_Management"
+Look into your downloads to see the file!
+You are not in the database. Try to create an account!
