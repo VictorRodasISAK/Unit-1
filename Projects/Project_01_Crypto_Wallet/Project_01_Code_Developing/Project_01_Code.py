@@ -138,8 +138,8 @@ def return_menu_login():
                             withdraw_amount = valid_value(msg=words[39])
 
                             while float(withdraw_amount) > balance:
-                                withdraw_amount = input(
-                                    f"{purple}{print(words[44].strip())}{end_code}\n{yellow}{float(input(words[45]))}{end_code}")
+                                print(f"{purple}{words[44].strip()}{end_code}")
+                                withdraw_amount = valid_value(msg=words[39])
                             date = datetime.date.today()
                             reason = reason_transaction(list=["Payments", "Stuff", "Kombini", "Travels", "Others"])
                             line = f"{date},{-withdraw_amount},{reason}\n"
