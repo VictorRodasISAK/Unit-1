@@ -81,28 +81,64 @@ can improve the internal structure without changing the external performance of 
 
 ## System Diagram
 ![Project_01_System_Diagram.png](Project_01_Images%2FProject_01_System_Diagram.png)
+
 **Fig.2:** *System Diagram Image*
 
 ## Flow Diagrams
+![Project_01_Flow_Diagram1.png](Project_01_Images%2FProject_01_Flow_Diagram1.png)
+
+**Fig.3:** *Flow Diagram 1, validate_pass function*
+
+![Project_01_Flow_Diagram1_Explained.png](Project_01_Images%2FProject_01_Flow_Diagram1_Explained.png)
+
+**Fig.4:** *Flow Diagram 1 Explained, validate_pass function*
+
+![Project_01_Flow_Diagram2.png](Project_01_Images%2FProject_01_Flow_Diagram2.png)
+
+**Fig.5:** *Flow Diagram 2, try_login function*
+
+![Project_01_Flow_Diagram2_Explained.png](Project_01_Images%2FProject_01_Flow_Diagram2_Explained.png)
+
+**Fig.6:** *Flow Diagram 2 Explained, try_login function*
+
+![Project_01_Flow_Diagram3.png](Project_01_Images%2FProject_01_Flow_Diagram3.png)
+
+**Fig.7:** *Flow Diagram 3, recover_password function*
+
+![Project_01_Flow_Diagram3_Explained.png](Project_01_Images%2FProject_01_Flow_Diagram3_Explained.png)
+
+**Fig.8:** *Flow Diagram 3 Explained, recover_password function*
+
+![Project_01_Flow_Diagram4.png](Project_01_Images%2FProject_01_Flow_Diagram4.png)
+
+**Fig.9:** *Flow Diagram 4, date_comparison function*
+
+![Project_01_Flow_Diagram4_Explained.png](Project_01_Images%2FProject_01_Flow_Diagram4_Explained.png)
+
+**Fig.10** *Flow Diagram 4 Explained, date_comparison function*
 
 ## Record of tasks
 | Task No | Planned Action                                    | Planned Outcome                                                                                                                                                                                           | Time estimate     | Target completion date | Criteria |
 |---------|---------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|------------------------|----------|
-| 1       | Create a system diagram                           | To have a clear idea of the hardware and software requirements for the process                                                                                                                            | 10 min            | Sep 13                 | B        |
-| 2       | Create a login system                             | To have a flow diagram and the code for the login system                                                                                                                                                  | 30 min            | Sep 14                 | B, C     |
-| 3       | Describing the general idea of my software        | What the customer wants? What can I do to solve the problem? With this I had a better view of what I was expecting to reach with my code. Therefore, help my client in the best way possible.             | 45 min            | Sep 15                 | A        |
-| 4       | Create a sign in system                           | To have a program that keeps the information safe and no one can access it, except the customer. In the case that the customer forgets the password, the customer will have the opportunity to recover it | 1 hour and 30 min | Sep 16                 | B, C     |
-| 5       | Test the Log-In and Check-In                      | To have a clear idea if the project is working as spected                                                                                                                                                 | 25 min            | Sep 17                 | C        |
-| 6       | Flow diagrams of Log-In / Check-In                | To have an idea how the code is working and see if I can make it easier.                                                                                                                                  | 1 hour            | Sep 18                 | B        |
-| 7       | Coding the first options for the costumer         | To have and show the different options that the costumer can access, trying to make it easier and understandable for the costumer.                                                                        | 2 hours           | Sep 19                 | C        |
-| 8       | Getting feedback from my seniors                  | To see if I can make the code in an easier way.                                                                                                                                                           | 1 hour            | Sep 20                 | B        |
-| 9       | Learning how to add information from web sites    | To know how can I make some connections with web pages. And have the best data posible in my code                                                                                                         | 1 hour and 15 min | Sep 21                 | B, C     |
-| 10      | Including information from web pages into my code | To have the most updated values, and make life easier to my customer. So the client will know the recent values about the Crypto Coin.                                                                    | 2 hours           | Sep 22                 | C        |
-| 11      | Learning how to convert a csv into a pdf          | To give my customer the option to print the transactions that the person made into a pdf                                                                                                                  | 1 hour and 30 min | Sep 23                 | C        |
+| 01      | Create a system diagram                           | To have a clear idea of the hardware and software requirements for the process                                                                                                                            | 10 min            | Sep 13                 | B        |
+| 02      | Create a login system                             | To have a flow diagram and the code for the login system                                                                                                                                                  | 30 min            | Sep 14                 | B, C     |
+| 03      | Describing the general idea of my software        | What the customer wants? What can I do to solve the problem? With this I had a better view of what I was expecting to reach with my code. Therefore, help my client in the best way possible.             | 45 min            | Sep 15                 | A        |
+| 04      | Create a sign in system                           | To have a program that keeps the information safe and no one can access it, except the customer. In the case that the customer forgets the password, the customer will have the opportunity to recover it | 1 hour and 30 min | Sep 16                 | B, C     |
+| 05      | Test the Log-In and Check-In                      | To have a clear idea if the project is working as spected                                                                                                                                                 | 25 min            | Sep 17                 | C        |
+| 06      | Flow diagrams of Log-In / Check-In                | To have an idea how the code is working and see if I can make it easier.                                                                                                                                  | 1 hour            | Sep 18                 | B        |
+| 07      | Coding the first options for the costumer         | To have and show the different options that the costumer can access, trying to make it easier and understandable for the costumer.                                                                        | 2 hours           | Sep 19                 | C        |
+| 08      | Getting feedback from my seniors                  | To see if I can make the code in an easier way.                                                                                                                                                           | 1 hour            | Sep 20                 | B        |
+| 09      | Learning how to add information from web sites    | To know how can I make some connections with web pages. And have the best data posible in my code                                                                                                         | 1 hour and 15 min | Sep 22                 | B, C     |
+| 10      | Including information from web pages into my code | To have the most updated values, and make life easier to my customer. So the client will know the recent values about the Crypto Coin.                                                                    | 2 hours           | Sep 23                 | C        |
+| 11      | Learning how to convert a csv into a pdf          | To give my customer the option to print the transactions that the person made into a pdf                                                                                                                  | 1 hour and 30 min | Sep 24                 | C        |
 | 12      | Getting feedback from my seniors (Part 2)         | To have a better code and make it comfortable for everyone who is using it.                                                                                                                               | 45 min            | Sep 24                 | B, C     |
 | 13      | Adding the last options of menu                   | To have options well tested, therefore the code can run without problems                                                                                                                                  | 1 Hour            | Sep 25                 | C        |
 | 14      | Reviewing my code                                 | To see if I can add more options or make it simpler with some functions                                                                                                                                   | 2 Hours           | Sep 26                 | C        |
 | 15      | Start making more flow diagrams                   | To know how is it running, therefore, see if there is a  gap that I need to fulfill.                                                                                                                      | 3 Hours           | Sep 27                 | B, C     |
+| 16      | Adding details to my code                         | To have a colorful and well defined code, so for the customer is going to be easier to follow instructions                                                                                                | 30 min            | Sep 28                 | C        |
+| 17      | Receiving feedback from classmates                | To see if I can make other things that can be useful for my proyect                                                                                                                                       | 1 hour            | Sep 29                 | C        |
+| 18      | Adding feedback given by classmates               | To have some details that can be helpful for the customer                                                                                                                                                 | 45 min            | Sep 30                 | C        |
+| 19      | Finishing my flow diagrams                        | To have the complete scheme of how my program is working, therefore, see if I can make some changes.                                                                                                      | 1 hour and 30 min | Oct 01                 | B, C     |
 
 # Criteria C: Development
 ## Existing tools
@@ -120,14 +156,14 @@ can improve the internal structure without changing the external performance of 
 3. Input validation (To see if the value entered is correct using 'While' loop)
 4. Dictionaries (To give the parameters of the information that I want to get)
 5. Web scraping (To get information from a website)
-6. Reporting (To creat a CSV into a PDF)
+6. Reporting (To create a CSV into a PDF)
 7. Encryption (To Log-In with a username and password)
 
 ## Development
 ### Words file
 In this part of the code I have every phrase that I am using on the python code. I took this from a csv file named `Project_01_Words1.csv"`
 I open this file as a 'read' mode. In addition, I use `words = words_file.readlines()` to read each line of the code. 
-So everytime that you see a 'words[x + 1]' where 'x' is the number of the 'phrase' that I want to show.
+So everytime that you see a 'words[x]' where 'x' is the number of the 'phrase' that I want to show.
 ```.py
 with open("../Project_01_Files/Project_01_Words1.csv", mode="r") as words_file:
     words = words_file.readlines()
@@ -152,7 +188,7 @@ info_wanted = {
     "page": 1,
     "sparkline": False
 }
-# Requesting the information from the website
+# Requesting the information from the website and the inforation that I want
 response = requests.get(website, params=info_wanted)
 # Success asking the request
 if response.status_code == 200:
@@ -203,7 +239,7 @@ with open("../Project_01_Files/Project_01_Account_Management.csv", mode="a") as 
 ### CSV into PDF Option '6' (Success criteria #4)
 I start with putting the file route in 'csv_file', then with the library 'pandas as pd' `pd.read_csv(csv_file)` I read the file. 
 With `[read_csv.columns.tolist()]` the program take how many columns should have the table and with `read_csv.values.tolist()` 
-I put the info that the program find. Next with the library 'os' I can direct where I want to download the PDF, in this case 
+I put the information that the program find. Next with the library 'os' I can direct where I want to download the PDF, in this case 
 in 'Downloads' `os.path.expanduser("~/Downloads")`. Also `os.path.join(download_path, "Account_Management.pdf")` this give
 the opportunity to make the 'download_path' and name the pdf.
 ```.py
@@ -217,7 +253,7 @@ Now talking about the design of the information that I want to print, with the l
 import letter` and `from reportlab.platypus import SimpleDocTemplate` I can put the size of the PDF. With `from 
 reportlab.platypus import Table` and `table = Table(info)` I can make a table with the information that is on 
 the CSV. Talking about the style of the table I use the library `from reportlab.platypus import TableStyle` Each line is
-well identified of what I want to reach and talking about the numbers, everytime you see a number (in the first part) o 
+well identified of what I want to reach and talking about the numbers, everytime you see a number (in the first part) or 
 '-1' in the (second part) refers that I want to put that option in my table, for example: `('BACKGROUND', (0, 1), (-1, -1), colors.white),` 
 In the first part, I put '(0,1)' the '0' is where the index starts, then '1' means the start of the range that I want for 
 the background, starting from 2, because the index starts from '0'. In the second part I put '(-1,-1)', this means that I
@@ -248,11 +284,9 @@ date_correct = date_comparison(msg=words[47])
 with open("../Project_01_Files/Project_01_Account_Management.csv", mode='r') as file:
     view_transactions = file.readlines()
 for line in view_transactions:
-    date = line.split(",")[0]
-    amount = line.split(",")[1]
-    reason = line.split(",")[2].strip()
+    date, amount, reason = line.strip().split(",")
     if date == date_correct:
-        print(f"{date} {amount} ADA {reason}")
+        print(f"{green}{date} {amount} ADA {reason}{end_code}")
 ```
 Here is the function `date_comparison`. At the beginning I tell the costumer to enter a date with the format YYYY-MM-DD,
 then I split the division with '-' if the splits are 3, it will continue with the program, if not, it will ask another time
@@ -279,7 +313,7 @@ def date_comparison(msg: str) -> str:
 ### Password Recover (Success Criteria #6)
 One of my success criteria was the option to recover the password by answering some questions that were asked at the registration,
 this begins due to a mistake made in the Log-In, so after 3 attempts, the user will have the option to recover the password.
-I define the function `recover_password` where the user needs to input the username and the answers of the questions. Then 
+I define the function `recover_password` where the user needs to input the username and need to answer the questions. Then 
 I open a file with the line code `with open('../Project_01_Files/Project_01_Users_Logged.csv', mode='r') as f:` where I 
 have all the data of the users. Then I use a 'for' loop to split each line of the '.csv' file and I take the first value 
 of this, so I can compare the username and take the line that is the same as the username. Therefore, I can compare each
@@ -287,28 +321,22 @@ answer of the questions, with the data that I have on the file. If everything is
 if something is bad, it will print that the person should make an account.
 
 ```.py
-def recover_password(msg1: str, msg2: str, msg3: str, msg4: str, msg5: str) -> str:
-    user_val = input(msg1)
-    q1 = input(msg2).lower()
-    q2 = input(msg3).lower()
-    q3 = input(msg4).lower()
-    q4 = input(msg5).lower()
+def recover_password(msg1: str) -> str:
+    user_val = input(f"{yellow}{msg1}{end_code}")
+    answers = []
+    for n in range(9, 13):
+        ques_ans = input(f"{yellow}{words[n]}{end_code}")
+        answers.append(ques_ans.lower()) # I save all the answers in 'answers[]'
     with open('../Project_01_Files/Project_01_Users_Logged.csv', mode='r') as f:
         data = f.readlines()
-    show_password = ""
     for line in data:
         line_user = line.strip().split(",")
-        # Taking just the first value of the split
-        user_correct = line_user[0].strip()
-        if user_correct == user_val:
-            #Giving values to each split
-            ques1, ques2, ques3, ques4 = line_user[2], line_user[3], line_user[4], line_user[5]
-            if ques1 == q1 and ques2 == q2 and ques3 == q3 and ques4 == q4:
-                show_password += f"{words[19]}{line_user[1]}\n{words[20]}"
-                break
-            else:
-                show_password += f"{words[59]}"
-    return show_password
+        # I compare if the user entered is in the database
+        if line_user[0].strip() == user_val:
+            # If yes it will take just the data from this line, trying to compare every response
+            if line_user[2] == answers[0] and line_user[3] == answers[1] and line_user[4] == answers[2] and line_user[5] == answers[3]:
+                return f"{yellow}{words[19].strip()}{line_user[1]}\n{words[20]}{end_code}"
+    return f"{red}{words[59]}{end_code}"
 ```
 ## Sign-In system
 I start this process by asking if the customer wants to create an account or wants to Log-In. If the user wants to create
@@ -329,13 +357,13 @@ correct format. If not, it will keep asking.
 ```.py
 pass_test = input(words[7])
 passw = validate_pass(upass=pass_test)
-# It will keep asking if validate_pass is False
+# It will keep asking if 'validate_pass' is False
 while not passw:
     print(f"ERROR! {words[6].strip()}")
     pass_test = input(words[7])
     passw = validate_pass(upass=pass_test)
 ```
-This is the function of `validate_pass`, when if the password follows the format, the program will continue. Nevertheless,
+This is the function of `validate_pass`. If the password follows the format, the program will continue. Nevertheless,
 if something is missing it will keep asking.
 ```.py
 def validate_pass(upass:str) -> bool:
@@ -371,12 +399,11 @@ customer enters '1' it will return to the main menu, otherwise, the program will
 another function named `frame_maker`.
 ```.py
 def project_leave():
-    print(words[35].strip())
-    print(words[36])
+    print(f"{purple}{words[35].strip()}\n{words[36]}{end_code}")
     number = valid_number(msg=words[3], valid="12")
     if number == '1':
-        return words[37] #Break the 'if' of the options and returns to the main menu
+        return f"{blue}{words[37]}{end_code}" # Break the if (opotion) and returns to the main menu
     elif number == "2":
-        print(frame_maker(msg=words[52].strip(), sym="*", space=50, num=5))
+        print(frame_maker(msg=words[52].strip(), sym="*", space=50))
     return exit(1) # Break the hole program
 ```

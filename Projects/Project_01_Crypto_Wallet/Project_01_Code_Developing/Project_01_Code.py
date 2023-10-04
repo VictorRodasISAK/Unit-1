@@ -8,64 +8,72 @@ from reportlab.lib import colors
 with open("../Project_01_Files/Project_01_Words1.csv", mode="r") as words_file:
     words = words_file.readlines()
 
+black = "\33[0;30m"
+red = "\33[0;31m"
+green = "\33[0;32m"
+yellow = "\33[0;33m"
+blue = "\33[0;34m"
+purple = "\33[0;35m"
+cyan = "\33[0;36m"
+white = "\33[0;37m"
+end_code = "\033[00m"
+
 
 def return_menu_login():
     while True:
 
         for n in range(0, 3):
-            print(words[n].strip())
+            print(f"{purple}{words[n].strip()}{end_code}")
             time.sleep(0.5)
 
         validate = valid_number(msg=words[3], valid="12")
 
         if validate == "1":
-            print(words[4])
-            user_repeat = input(words[5])
+            user_repeat = input(f"{yellow}{words[4].strip()}\n{words[5]}{end_code}")
             valid_uname = uname_repeated(uname=user_repeat)
             while valid_uname == True:
-                print(words[41].strip())
-                user_repeat = input(words[5])
+                user_repeat = input(f"{red}{words[41].strip()}\n{words[5]}{end_code}")
                 valid_uname = uname_repeated(uname=user_repeat)
 
-            print(words[6].strip())
-            pass_test = input(words[7])
+            pass_test = input(f"{yellow}{words[6].strip()}\n{words[7]}{end_code}")
             passw = validate_pass(upass=pass_test)
 
             while not passw:
-                print(f"ERROR! {words[6].strip()}")
-                pass_test = input(words[7])
+                pass_test = input(f"{red}ERROR!\n{words[6].strip()}\n{words[7]}{end_code}")
                 passw = validate_pass(upass=pass_test)
 
-            print(words[8])
+            print(f"{purple}{words[8].strip()}{end_code}")
             answers = ""
             for n in range(9, 13):
-                answers_recover = input(words[n])
+                answers_recover = input(f"{yellow}{words[n]}{end_code}")
                 answers += answers_recover + ","
 
             with open("../Project_01_Files/Project_01_Users_Logged.csv", mode="a") as user_file:
                 user_file.writelines(f"{user_repeat},{pass_test},{answers.lower()}\n")
 
-            print(words[34])
+            print(f"{purple}{words[34]}{end_code}")
             print(project_leave())
 
         elif validate == "2":
 
-            attempts = 3
+            attempts = 4
             result = try_login(msg1=words[13], msg2=words[14])
             while result == False and attempts > 1:
-                print(f"ERROR! {words[15]}")
+                print(f"{red}ERROR! You have: {attempts - 1} attempts remaining, {words[15]}{end_code}")
                 result = try_login(msg1=words[13], msg2=words[14])
                 attempts -= 1
             if result:
+                print(frame_maker(msg=words[21].strip(), sym="#", space=50))
+
                 def return_menu():
                     while True:
-                        for n_menu in range(21, 30):
-                            print(words[n_menu].strip())
+                        for n_menu in range(22, 30):
+                            print(f"{purple}{words[n_menu].strip()}{end_code}")
                             time.sleep(0.5)
                         validate2 = valid_number(msg=words[30], valid="1234567")
 
                         if validate2 == "1":
-                            print(words[31])
+                            print(f"{purple}{words[31]}{end_code}")
                             website = "https://api.coingecko.com/api/v3/coins/markets"
                             info_wanted = {
                                 "vs_currency": "usd",
@@ -90,12 +98,10 @@ def return_menu_login():
                                 print(f"PRICE VARIATION IN THE LAST 24 HOURS: {data['price_change_percentage_24h']}%")
 
                             else:
-                                print(words[53])
-                            print()
+                                print(f"{red}{words[53]}{end_code}\n")
                             with open("../Project_01_Files/Project_01_Cardano_Info.txt", mode="r") as file:
                                 cardano_file2 = file.read()
                                 print(cardano_file2)
-
                             print(project_leave())
 
                         elif validate2 == "2":
@@ -107,8 +113,7 @@ def return_menu_login():
                                 balance += float(amount)
                             today = datetime.date.today()
                             message = f"Your current Cardano Coins {today} is {balance:.2f} ADA"
-                            print(frame_maker(msg=message, sym="$", space=50, num=3))
-
+                            print(frame_maker(msg=message, sym="$", space=50))
                             print(project_leave())
 
                         elif validate2 == "3":
@@ -118,7 +123,7 @@ def return_menu_login():
                             line = f"{date},{amount},{reason}\n"
                             with open("../Project_01_Files/Project_01_Account_Management.csv", mode="a") as manage_file:
                                 manage_transactions = manage_file.writelines(line)
-                            print(words[42])
+                            print(f"{green}{words[42]}{end_code}")
                             print(project_leave())
 
                         elif validate2 == "4":
@@ -129,36 +134,31 @@ def return_menu_login():
                             for line in balance_file:
                                 date, amount, reason = line.strip().split(",")
                                 balance += float(amount)
-                            print(words[38].strip())
-                            print(words[33])
+                            print(f"{purple}{words[38].strip()}\n{words[33]}{end_code}")
                             withdraw_amount = valid_value(msg=words[39])
 
                             while float(withdraw_amount) > balance:
-                                print(words[44].strip())
-                                withdraw_amount = float(input(words[45]))
+                                withdraw_amount = input(
+                                    f"{purple}{print(words[44].strip())}{end_code}\n{yellow}{float(input(words[45]))}{end_code}")
                             date = datetime.date.today()
                             reason = reason_transaction(list=["Payments", "Stuff", "Kombini", "Travels", "Others"])
                             line = f"{date},{-withdraw_amount},{reason}\n"
                             with open("../Project_01_Files/Project_01_Account_Management.csv", mode="a") as manage_file:
                                 manage_transactions = manage_file.writelines(line)
-                            print(words[43])
+                            print(f"{green}{words[43]}{end_code}")
                             print(project_leave())
 
 
                         elif validate2 == "5":
-                            print(words[46])
+                            print(f"{purple}{words[46]}{end_code}")
                             date_correct = date_comparison(msg=words[47])
 
                             with open("../Project_01_Files/Project_01_Account_Management.csv", mode='r') as file:
                                 view_transactions = file.readlines()
                             for line in view_transactions:
-                                date = line.split(",")[0]
-                                amount = line.split(",")[1]
-                                reason = line.split(",")[2].strip()
+                                date, amount, reason = line.strip().split(",")
                                 if date == date_correct:
-                                    print(f"{date} {amount} ADA {reason}")
-                                    print()
-
+                                    print(f"{green}{date} {amount} ADA {reason}{end_code}")
                             print(project_leave())
 
                         elif validate2 == "6":
@@ -182,30 +182,26 @@ def return_menu_login():
                             info_stored = []
                             info_stored.append(table)
                             doc.build(info_stored)
-                            print(f"{words[57]}{words[58]}")
-
+                            print(f"{purple}{words[57]}{words[58]}{end_code}")
                             print(project_leave())
 
                         elif validate2 == "7":
-                            print(frame_maker(msg=words[52].strip(), sym="^", space=50, num=5))
+                            print(frame_maker(msg=words[52].strip(), sym="^", space=50))
                             exit(1)
 
                 if __name__ == "__main__":
                     return_menu()
 
             if not result:
-                print(words[16].strip())
-                print(words[17])
+                print(f"{purple}{words[16].strip()}\n{words[17]}{end_code}")
                 want_recover = valid_number(msg=words[3], valid="12")
 
                 if want_recover == "1":
-                    print(words[18])
-                    questions_good = recover_password(msg1=words[13], msg2=words[9], msg3=words[10], msg4=words[11],
-                                                      msg5=words[12])
-                    print(questions_good)
+                    print(f"{purple}{words[18]}{end_code}")
+                    print(recover_password(msg1=words[13]))
                     print(project_leave())
                 else:
-                    print(words[37])
+                    print(f"{blue}{words[37]}{end_code}")
                     continue
 
 
