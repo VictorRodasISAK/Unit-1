@@ -64,4 +64,17 @@ print(x // 10 % 10)
 
 #Print just hundred
 x = int(input())
-print(x // 100)"""
+print(x // 100)
+
+#Print prime numbers in range
+a = int(input())
+b = int(input())
+
+for n in range(a, b + 1):
+    is_prime = True
+    for i in range(2, n - 1):
+        if n % i == 0:
+            is_prime = False
+    if is_prime:
+        print(n)"""
+
